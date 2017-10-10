@@ -1,19 +1,23 @@
 # Midterm IoT Project
 
-Name:  
+Name:  Jo Kwon
 
-Date:
+Date:  October 11, 2017
 
-## Project: "Brand Name" or Device Name
+## Project: "Healthy Pikachu"
 
 ### Conceptual Description
 
 /// Replace with a description of the ***critical / conceptual dimensions of your project***, with specific reference to the key issues it engages.  These should intersect with the issues that have been explored in the readings and discussions during the first half of class:  eWaste, data security/ownership in relation to corporate cloud infrastructures; critical making; surveillance and privacy, etc. ** *How does your project engage with these issues beyond mere instrumentality?* ** ///
+///In the early 2000s, children would play with their tamagotchi which was a small digital pet. The pet would eat, sleep, and feel emotions. If it 
 
+
+///
 ### Form
 
 /// Your project should be embodied in a ***physical form*** that reflects, embodies, and/or amplifies those your project's main concepts and ideas.
 Explain your design choices here and include images that document your project's material embodiment. ///
+Ta
 
 **Finished Enclosure:**
 
