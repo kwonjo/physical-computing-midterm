@@ -8,11 +8,9 @@ Date:  October 11, 2017
 
 ### Conceptual Description
 
-/// Replace with a description of the ***critical / conceptual dimensions of your project***, with specific reference to the key issues it engages.  These should intersect with the issues that have been explored in the readings and discussions during the first half of class:  eWaste, data security/ownership in relation to corporate cloud infrastructures; critical making; surveillance and privacy, etc. ** *How does your project engage with these issues beyond mere instrumentality?* ** ///
-///
-Children are not easily motivated into learning new concepts. Therefore, scholars and companies strive to solve this problem by introducing new products or ideas. As Natalie Jeremijenko states in her interview with Garnet Hertz, she thinks that making stuff is the fundamental of intellectual activity. Children can engage in this intellectual activity when they are making something. Jeremijenko clearly argues that simply assembling Lego for robotics without the knowledge of the right material and function is useless. It is vital for people to understnd the fundamentals in these activities. In order for people to know the fundamentals, open source is also necessary. Therefore, allowing people, especially children, to engage in the making process with instructions of the whole process of the "Healthy Pikachu" will enable children to learn. The children will not be able to code and only engage in assembling but each step will have explanations for fundamentals to be overviewed. "Healthy Pikachu" allows children to engage in critical making. 
+Children are not easily motivated into learning new concepts. Therefore, scholars and companies strive to solve this problem by introducing new products or ideas. As Natalie Jeremijenko states in her interview with Garnet Hertz, she thinks that creating stuff is the fundamental of intellectual activity. Children can engage in this intellectual activity when they are making something. Jeremijenko strongly argues that simply assembling Lego for robotics without the knowledge of the right material and function is useless. It is vital for people to understnd the fundamentals in these activities. In order for people to know the fundamentals, open source is also necessary. Therefore, people, especially children, should be able to engage in the making process with instructions of the whole process of the "Healthy Pikachu." It will enable children to learn. The children will not be able to code and only engage in assembling but each step will have explanations for fundamentals to be overviewed. "Healthy Pikachu" allows children to engage in critical making. 
 
-In the early 2000s, children would play with their tamagotchi which was a small digital pet. The pet would eat, sleep, and feel emotions. If it did not get feed properly, the emotion of the pet would change to an upsetting mode. Some children played with the tamagotchi instead of real pets. Although the digital pet was not "real," children would learn responsibilities for taking care of other living things. Recently, Pokemon Go, location-based augmented reality game, was popular and it motivated many people to chase after pokemons. People were traveling to other cities to catch the unique pokemons that did not exist in their city. Many people walked around due to the game. There were many advantages of the introduction of the Pokemon Go to the society. "Healthy Pikachu" will enable children to eat more healthier with the motivation of making Pikachu in a happy state. 
+In the early 2000s, children would play with their tamagotchi which was a small digital pet. The pet would eat, sleep, and feel emotions. If it did not get feed properly, the emotion of the pet would change to an upsetting mode. Some children played with the tamagotchi instead of real pets. Although the digital pet was not "real," children would learn responsibilities for taking care of other living things. Recently, Pokemon Go, location-based augmented reality game, was popular and it motivated many people to chase after pokemons. People were traveling to other cities to catch the unique pokemons that did not exist in their city. There were many advantages of the introduction of the Pokemon Go to the society and one of them was exercising by walking around areas to catch pokemons. The Kolibree toothbrush was an example that I talked about before which made children to brush their teeth with interactive games on smart phones. Pokemon Go and the Kolibree toothbrush are examples that show people can make healthy choices with the help of technology. "Healthy Pikachu" will enable children to eat more healthier with the motivation of making Pikachu in a happy state. 
 
 
 ///
@@ -32,8 +30,12 @@ As I stated in the previous section about tamagotchi and Pokemon Go, I wanted to
 ### Technical Details
 //   
 Here you should give an overview of the technical operation of your device, including:
-* A wiring diagram
-* list of hardware used
+1. The hardware that I used are the followings:
+Sparkfun
+two buttons
+four wires
+3D printing Pikachu model
+
 * Explanation of your
 * Link to code   
 
