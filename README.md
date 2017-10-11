@@ -35,9 +35,7 @@ Sparkfun
 two buttons
 four wires
 3D printing Pikachu model
-
-2. Explanation of your
-3. Link to my code:
+2. ![Wiring Diagram](healthypikachu_photon.png)
 
 //
 
@@ -49,6 +47,5 @@ Particle.subscribe("Execute", messageParse, MY_DEVICES);
 
 but also link to your project's full code in this repository:  [photon.ino](photon.ino)
 
-**Wiring Diagram**
 
-![Wiring Diagram](healthypikachu_photon.png)
+
