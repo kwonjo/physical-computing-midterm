@@ -2,19 +2,19 @@
 //pin definitions
 int buttonPin1 = D2;
 int buttonPin2 = D3;
-int LEDPin2 = D4;
+int LEDPin2 = D4;//Yuchen's LED
 void lightup(const char *, const char *);
-//int pin1State = LOW;
-//int pin2State = LOW;
-int val1 = 0;
-int val2 = 0;
+
+
+int val1 = 0;//int pin1State = LOW;
+int val2 = 0;//int pin2State = LOW;
 
 //setup
 void setup() {
-  pinMode(buttonPin1, INPUT_PULLUP);
+  pinMode(buttonPin1, INPUT_PULLUP);//pullup resistor in spark
   pinMode(buttonPin2, INPUT_PULLUP);
   pinMode(LEDPin2, OUTPUT);
-  Particle.subscribe("pika", lightup, MY_DEVICES);
+  Particle.subscribe("pika", lightup, MY_DEVICES); //communicate with Yuchen's photon
   
   Serial.begin(9600);
 }
@@ -27,18 +27,18 @@ void loop() {
   if((val1 == LOW) && (val2 == LOW)){
     Spark.publish("pikachu_status","Pikachu is eating too much!", 60, PRIVATE);
     delay(5000); 
-    }//PIR1&2 detected at the sametime 
+    }//buttonPin1&2 detected at the sametime 
   else if((val1 == LOW) && (val2 == HIGH)){
   	Spark.publish("pikachu_status", "Pikachu is HAPPY because you are healthy!", 60, PRIVATE);
     delay(5000); 
-  	} //button1 detects "healthy food"
+  	} //buttonPin1 detects "healthy food"
   else if((val2 == LOW) && (val1 == HIGH)){
    	Spark.publish("pikachu_status", "Pikachu is SAD because you are eating junk food", 60, PRIVATE);
    	delay(5000); 
-   	}//button2 detects "unhealthy food"
+   	}//buttonPin2 detects "unhealthy food"
   else {
     Particle.publish("pika", "light", PRIVATE);
-    delay(5000);
+    delay(5000);//nothing is pushed so LEDPin2 is "light"
    }
   
   val1 = 0;
@@ -49,10 +49,10 @@ void loop() {
 void lightup(const char *event, const char *data) {
     
   if(strcmp(data,"light")==0){
-    digitalWrite(LEDPin2, HIGH);
+    digitalWrite(LEDPin2, HIGH);//LEDPin2 is on
   }
   else{
-    digitalWrite(LEDPin2, LOW);
+    digitalWrite(LEDPin2, LOW);//LEDPin2 is off
   }
 }
 
