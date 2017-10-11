@@ -21,11 +21,12 @@ Ta
 
 **Finished Enclosure:**
 
-![Finished Enclosure](finished_enclosure.jpg)
+![Finished Enclosure](finishpikachu.jpg)
 
 **Electronics Exposed:**
 
-![Enclosure with electronics exposed](exposed_enclosure.jpg)
+![Enclosure with electronics exposed](exposed_pikachu.jpg)
+![Enclosure2 with electronics exposed](exposed_pikachu2.jpg)
 
 ### Technical Details
 //   
