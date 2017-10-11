@@ -28,24 +28,27 @@ As I stated in the previous section about tamagotchi and Pokemon Go, I wanted to
 ![Enclosure2 with electronics exposed](exposed_pikachu2.jpg)
 
 ### Technical Details
-//   
 Here you should give an overview of the technical operation of your device, including:
 1. The hardware that I used are the followings:
 Sparkfun
 two buttons
 four wires
 3D printing Pikachu model
-2. ![Wiring Diagram](healthypikachu_photon.png)
 
-//
+2. Wiring Diagram
+![Wiring Diagram](healthypikachu_photon.png)
 
+3. Explanation and Code
+When green button(buttonPin1) is pressed, Pikachu sends an email to you stating "Pikachu is HAPPY because you are healthy!"
+When red button(buttonPin2) is pressed, Pikachu sends an email to you stating "Pikachu is SAD because you are eating junk food."
+When green button(buttonPin1) and red button(buttonPin2) is pressed together at the sametime, Pikachu sends an email to you stating "Pikachu is eating too much!"
 You can include code snippets here:
 
 ```
 Particle.subscribe("Execute", messageParse, MY_DEVICES);
 ```
 
-but also link to your project's full code in this repository:  [photon.ino](photon.ino)
+*link to the project's full code in this repository:  [photon.ino](photon.ino)
 
 
 
