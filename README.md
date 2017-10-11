@@ -36,8 +36,8 @@ two buttons
 four wires
 3D printing Pikachu model
 
-* Explanation of your
-* Link to code   
+2. Explanation of your
+3. Link to my code:
 
 //
 
