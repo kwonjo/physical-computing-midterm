@@ -29,11 +29,12 @@ As I stated in the previous section about tamagotchi and Pokemon Go, I wanted to
 
 ### Technical Details
 Here you should give an overview of the technical operation of your device, including:
+
 1. The hardware that I used are the followings:
-Sparkfun
-two buttons
-four wires
-3D printing Pikachu model
+*Sparkfun
+*two buttons
+*four wires
+*3D printing Pikachu model
 
 2. Wiring Diagram
 
@@ -41,16 +42,21 @@ four wires
 
 3. Explanation and Code
 
-When green button(buttonPin1) is pressed, Pikachu sends an email to you stating "Pikachu is HAPPY because you are healthy!"
+When green button(buttonPin1) is pressed, Pikachu sends an email to you stating "Pikachu is HAPPY because you are eating healthy!"
 When red button(buttonPin2) is pressed, Pikachu sends an email to you stating "Pikachu is SAD because you are eating junk food."
 When green button(buttonPin1) and red button(buttonPin2) is pressed together at the sametime, Pikachu sends an email to you stating "Pikachu is eating too much!"
-You can include code snippets here:
+
+Interactive project component with Yuchen
+When "Pikachu is HAPPY because you are healthy!," it sends a signal to Yuchen's project for the green LED to turn on.
+When "Pikachu is SAD because you are eating junk food," the green LED turns off. 
+
+When Yuchen's sun comes up, the PIR detects it and the LED is turned on. After these two steps, a message(email) is sent to my account saying that "Good Morning, Pikachu needs to EAT!" for Pikachu's owner to know to feed him. 
 
 ```
 Particle.subscribe("Execute", messageParse, MY_DEVICES);
 ```
 
-*link to the project's full code in this repository:  [photon.ino](photon.ino)
+4. Link to the project's full code in this repository:  [photon.ino](photon.ino)
 
-
-
+5. Works Cited
+[Experiment 2: With the Touch of a Button](https://learn.sparkfun.com/tutorials/sparkfun-inventors-kit-for-photon-experiment-guide/experiment-2-with-the-touch-of-a-button)
